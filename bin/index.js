@@ -1,13 +1,4 @@
 var mosca = require('mosca');
-var config = require('../config');
-
-// var ascoltatore = {
-//     //using ascoltatore
-//     type: 'mongo',
-//     url: config.db.mongodb_url_dev + '/' + config.db.db_name,
-//     pubsubCollection: 'mqtt',
-//     mongo: {}
-// };
 
 var settings = {
     port: 1883,
